@@ -13,9 +13,6 @@ install these before running it
 """
 
 
-
-
-
 import torch
 import cv2
 import numpy as np
