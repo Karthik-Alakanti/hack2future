@@ -4,37 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GENIR</title>
+    <title>GENIR - AI Path Tracing Generator</title>
     <link rel="stylesheet" href="style.css">
-    <!-- box icons -->
+    <!-- Box Icons -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <!-- remixicons -->
+    <!-- Remix Icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet" />
-    <!-- google-fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Poppins&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <a href="#" class="logo">GENIR</a>
         <ul class="navlist">
-            <!-- <i class="ri-home-line"></i> -->
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
             <li><a href="./pages/rendererpage.html">Renderer</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <div class="bx bx-menu" id="menu-icon">
-
-        </div>
+        <div class="bx bx-menu" id="menu-icon"></div>
     </header>
-    <script src="script.js"></script>
 
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Introducing GENIR</h1>
+                <p>Your AI-powered path tracing generator for stunning visuals.</p>
+                <a href="#features" class="btn">Discover Features</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About GENIR</h2>
+            <p>GENIR leverages advanced AI algorithms to create realistic and high-quality path tracing images. Ideal for artists, designers, and developers, our tool makes rendering easier and more efficient.</p>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Features</h2>
+            <ul>
+                <li><i class="ri-check-line"></i> High-quality path tracing results</li>
+                <li><i class="ri-check-line"></i> User-friendly interface</li>
+                <li><i class="ri-check-line"></i> Real-time rendering capabilities</li>
+                <li><i class="ri-check-line"></i> Customizable settings for advanced users</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>For inquiries or collaborations, reach out at <a href=""></a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GENIR. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

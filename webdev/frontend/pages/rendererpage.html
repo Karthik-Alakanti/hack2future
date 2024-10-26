@@ -4,23 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Renderer - GENIR </title>
+    <title>Renderer - GENIR</title>
     <link rel="stylesheet" href="rendererpagestyle.css">
 </head>
 
 <body>
     <div class="container">
+        <header>
+            <h1>GENIR RENDERER</h1>
+            <p>Use the tools below to render your path tracing images.</p>
+        </header>
         <div class="screen">
             <canvas id="canvas" width="800" height="600">
-                <!-- import the source file which runs here -->
                 Your browser does not support the canvas element.
             </canvas>
         </div>
         <div class="controls">
-            <Button>Upload New File</Button>
-            <Button>Zoom In</Button>
-            <Button>Zoom Out</Button>
-
+            <input type="file" id="fileInput" accept="image/*">
+            <button id="uploadButton">Upload New File</button>
+            <button id="zoomInButton">Zoom In</button>
+            <button id="zoomOutButton">Zoom Out</button>
         </div>
     </div>
     <script src="renderer.js"></script>
